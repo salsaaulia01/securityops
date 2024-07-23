@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const minutesElement = document.getElementById('minutes');
     const secondsElement = document.getElementById('seconds');
 
-    // Set the target date for the countdown (e.g., December 31, 2024)
-    const targetDate = new Date('December 31, 2024 23:59:59').getTime();
+
+    const targetDate = new Date('July 31, 2024 23:59:59').getTime();
 
     function updateCountdown() {
         const now = new Date().getTime();
