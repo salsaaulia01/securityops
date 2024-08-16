@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const secondsElement = document.getElementById('seconds');
 
 
-    const targetDate = new Date('July 26, 2024 23:59:59').getTime();
+    const targetDate = new Date('August 31, 2024 23:59:59').getTime();
 
     function updateCountdown() {
         const now = new Date().getTime();
